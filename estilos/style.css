@@ -62,6 +62,25 @@ section#redes-sociais img:hover {
     transition: transform .4s, border .6s;
 }
 
+.footer__desenvolvedor {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 1em;
+}
+
+.desenvolvedor__link {
+    text-decoration: none;
+    color: var(--color-principal);
+    font-weight: 700;
+}
+
+.desenvolvedor__link:hover {
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
     section#celular {
         position:absolute;
