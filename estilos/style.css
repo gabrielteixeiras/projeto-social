@@ -61,3 +61,12 @@ section#redes-sociais img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
     transition: transform .4s, border .6s;
 }
+
+@media screen and (max-width: 768px) {
+    section#celular {
+        position:absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+}
