@@ -45,6 +45,7 @@ iframe#tela {
 
 section#redes-sociais {
     text-align: right;
+    margin-right: 1em;
 }
 
 section#redes-sociais img{
@@ -84,8 +85,8 @@ section#redes-sociais img:hover {
 @media screen and (max-width: 768px) {
     section#celular {
         position:absolute;
-        top: 45%;
-        left: 43%;
+        top: 38%;
+        left: 41%;
         transform: translate(-50%, -50%);
     }
 }
