@@ -83,6 +83,10 @@ section#redes-sociais img:hover {
 }
 
 @media screen and (max-width: 768px) {
+    section#redes-sociais {
+        margin-right: .5em;
+    }
+
     section#celular {
         position:absolute;
         top: 45%;
